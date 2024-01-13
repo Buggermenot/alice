@@ -1,0 +1,10 @@
+{
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "dto": "meta",
+    "strategies": "helper"
+  },
+  "material-icon-theme.files.associations": {
+    ".env.docker-compose": "tune"
+  }
+}

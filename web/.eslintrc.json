@@ -1,0 +1,19 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["import", "unused-imports"],
+  "rules": {
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc"
+        }
+      }
+    ],
+    "import/no-duplicates": ["error"],
+    "import/newline-after-import": ["error"],
+    "import/no-useless-path-segments": ["error"],
+    "unused-imports/no-unused-imports": "error"
+  }
+}
